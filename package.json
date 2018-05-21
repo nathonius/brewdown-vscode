@@ -1,0 +1,43 @@
+{
+  "name": "brewdown-vscode",
+  "version": "0.0.1",
+  "description": "Adds the brewdown markdown-it plugin to VS Code. Brewdown is a flavor of markdown and stylesheet specifically for D&D 5th edition homebrew.",
+  "main": "./extension.js",
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "repository": {
+    "url": "https://github.com/OfficerHalf/brewdown-vscode.git"
+  },
+  "keywords": [
+    "markdown",
+    "dnd",
+    "homebrew",
+    "brewdown"
+  ],
+  "author": "Nathan Smith",
+  "publisher": "officerhalf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OfficerHalf/brewdown-vscode/issues"
+  },
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./styles.css"
+    ]
+  },
+  "devDependencies": {
+    "vscode": "^1.0.0"
+  },
+  "dependencies": {
+    "brewdown": "^1.2.0"
+  }
+}
