@@ -10,7 +10,7 @@ Adds the [brewdown](https://github.com/trwolfe13/brewdown) markdown-it plugin to
 - brewdown.twoCol: boolean (true)
 - brewdown.pageSize: string (letter)
 
-# Snippets
+## Snippets
 - cover
 - description
 - note
