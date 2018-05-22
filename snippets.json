@@ -1,0 +1,72 @@
+{
+    "coverpage": {
+        "prefix": "cover",
+        "scope": "markdown",
+        "body": [
+            "::: cover",
+            "$0",
+            ":::"
+        ]
+    },
+    "description": {
+        "prefix": "description",
+        "scope": "markdown",
+        "body": [
+            "\"\"\"description",
+            "$0",
+            "\"\"\""
+        ]
+    },
+    "note": {
+        "prefix": "note",
+        "scope": "markdown",
+        "body": [
+            "\"\"\"note",
+            "$0",
+            "\"\"\""
+        ]
+    },
+    "abilityBlock": {
+        "prefix": "abilities",
+        "scope": "markdown",
+        "body": [
+            "{abilities: STR=$1, DEX=$2, CON=$3, INT=$4, WIS=$5, CHA=$6}"
+        ]
+    },
+    "classTable": {
+        "prefix": "class",
+        "scope": "markdown",
+        "body": [
+            "::: classtable",
+            "##### ${1:Class}",
+            "| Level | Proficiency Bonus | Features |",
+            "|:-----:|:-----------------:|:--------:|",
+            "|  1st  |         +2        | Ability  |",
+            ":::"
+        ]
+    },
+    "statBlock": {
+        "prefix": "statblock",
+        "scope": "markdown",
+        "body": [
+            ":::stats",
+            "## ${1:Name}",
+            "*Size Type (subtype), alignment*",
+            "___",
+            "- **Armor Class** ${2:AC}",
+            "- **Hit Points** ${3:HP} (1d8 + 2)",
+            "- **Speed** 30 ft.",
+            "___",
+            "{abilities: STR=10, DEX=10, CON=10, INT=10, WIS=10, CHA=10}",
+            "___",
+            "- **Senses**",
+            "- **Languages** Common",
+            "___",
+            "- **Ability.** Description.",
+            "___",
+            "### Actions",
+            "- ***Weapon.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage.",
+            ":::"
+        ]
+    }
+}

@@ -32,7 +32,30 @@
     "markdown.markdownItPlugins": true,
     "markdown.previewStyles": [
       "./styles.css"
-    ]
+    ],
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets.json"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Brewdown configuration",
+      "properties": {
+        "brewdown.twoCol": {
+          "type": "boolean",
+          "default": true,
+          "description": "Render with two columns."
+        },
+        "brewdown.pageSize": {
+          "type": "string",
+          "default": "letter",
+          "enum": ["a2", "a3", "a4", "a5", "a6", "b3", "b4", "b5", "letter", "legal"],
+          "description": "Size of the preview page."
+        }
+      }
+    }
   },
   "devDependencies": {
     "vscode": "^1.0.0"
