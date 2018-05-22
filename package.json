@@ -22,7 +22,7 @@
     "url": "https://github.com/OfficerHalf/brewdown-vscode/issues"
   },
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.23.0"
   },
   "categories": [
     "Other"
