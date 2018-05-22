@@ -33,7 +33,8 @@
   "contributes": {
     "markdown.markdownItPlugins": true,
     "markdown.previewStyles": [
-      "./brewdown-assets/styles.css"
+      "./brewdown-assets/styles.css",
+      "./previewSpecific.css"
     ],
     "snippets": [
       {
