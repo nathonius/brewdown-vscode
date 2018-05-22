@@ -9,3 +9,11 @@ Adds the [brewdown](https://github.com/trwolfe13/brewdown) markdown-it plugin to
 ## Settings
 - brewdown.twoCol: boolean (true)
 - brewdown.pageSize: string (letter)
+
+# Snippets
+- cover
+- description
+- note
+- abilities
+- class
+- statblock
